@@ -15,16 +15,6 @@ h2 {
   color: white;
 }
 
-p {
-  color: white;
-  margin: 20px;
-}
-
-a {
-  color: aqua;
-  text-decoration: none;
-}
-
 ul.menu {
   list-style-type: none;
   margin: 0;
@@ -60,10 +50,33 @@ ul.menu li a.active {
   font-style: normal;
 }
 
-img {
+ul li {
+  color: white;
+}
+
+#logo {
+  margin: auto;
+  margin-top: 0;
+  padding: 35px;
+}
+
+.paragraph {
+  background-color: #111111;
+  color: white;
+  padding: 20px;
+}
+
+.link {
+   color: aqua;
+  text-decoration: none;
+}
+
+#homepagegif {
+  width: 150px;
+  height: 150px;
   margin: 15px;
 }
 
-ul li {
-  color: white;
+.weaponimg {
+  width: 180px;
 }
