@@ -5,6 +5,16 @@ body {
   font-family: "iceberg", sans-serif;
 }
 
+#index-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#weapon-section{
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   color: white;
   margin: 10px;
@@ -64,6 +74,10 @@ ul li {
   background-color: #111111;
   color: white;
   padding: 20px;
+  width: 700px;
+  height: auto;
+  margin: 20px;
+  border: 5px solid #bbbbbb;
 }
 
 .link {
@@ -79,4 +93,6 @@ ul li {
 
 .weaponimg {
   width: 180px;
+  height: 100px;
+  flex-direction: column;
 }
