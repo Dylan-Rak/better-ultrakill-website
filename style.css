@@ -8,9 +8,15 @@ body {
 #index-section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #weapon-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#revolver-p {
   display: flex;
   flex-direction: column;
 }
@@ -95,4 +101,14 @@ ul li {
   width: 180px;
   height: 100px;
   flex-direction: column;
+}
+
+.index-paragraph {
+  border: #bbbbbb 5px solid;
+  background-color: #363636;
+}
+
+.weapon-p {
+  border: #bbbbbb 5px solid;
+  background-color: #363636;
 }
