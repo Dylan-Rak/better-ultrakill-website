@@ -5,20 +5,19 @@ body {
   font-family: "iceberg", sans-serif;
 }
 
-#index-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.index-container {
+  display: 
+  grid-template-columns: ;
 }
 
-#weapon-section{
-  display: flex;
-  flex-wrap: wrap;
+.weapon-container{
+  display: grid
+  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-#revolver-p {
-  display: flex;
-  flex-direction: column;
+.revolver-p {
+  display: grid
 }
 
 h1 {
@@ -100,7 +99,7 @@ ul li {
 .weaponimg {
   width: 180px;
   height: 100px;
-  flex-direction: column;
+  
 }
 
 .index-paragraph {
